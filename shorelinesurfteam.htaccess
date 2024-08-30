@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portal</title>
+    <link rel="icon" type="Imagens/Menus/FAV" href="Imagens/Logos/Logo2.svg">
+    <link href="estilos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho">
+            <div id="error">
+                <a href="index.html"><img src="Imagens/Logos/Logo1.svg" width="120rem"></a>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="_404">
+        <h1>Não encontamos nada aqui...</h1>
+        <p>Verifique sua rede e recarregue essa página. Caso o erro persista, contate <a class="link1">a equipe de suporte</a> ou <a href="index.html">volte ao início</a>.</p>
+        <p id="Erro">#ERRO 404.</p>
+    </section>
+
+    <footer class="container">
+        <p class="legenda">&copy 2024 Técnico em Desenvolvimento de Sistemas</p>
+    </footer>
+
+    <script src="slideshow.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
